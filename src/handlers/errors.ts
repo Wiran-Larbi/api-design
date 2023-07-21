@@ -21,9 +21,9 @@ export const errorHandler = (err: Error,req: Request,res: Response,next: NextFun
         }
 }
 
-process.on('uncaughtException',() => {
-    console.log("UNCAUGHT EXCEPTION !");
-})
-process.on('unhandledRejection',() => {
-    console.log("UNHANDLED REJECTION !");
-})
+// process.on('uncaughtException',() => {
+//     console.log("UNCAUGHT EXCEPTION !");
+// })
+// process.on('unhandledRejection',() => {
+//     console.log("UNHANDLED REJECTION !");
+// })
